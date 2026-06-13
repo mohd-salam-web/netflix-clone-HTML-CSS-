@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    background-image: url("image/bg.jpg");
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    width: 100%;
+    min-height: 80vh;
+    background-color: black;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+}
+
+.main nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    color: red;
+
+
+
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav .flex {
+    position: relative;
+    z-index: 10;
+}
+
+.main .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 15;
+    top: 130px;
+    /* gap: 5px; */
+    color: white;
+    /* font-size: 25px;
+    font-weight: 900; */
+    font-family: "Martel Sans", sans-serif;
+    padding: 0 30px;
+}
+
+.hero span h1 {
+    font-size: 45px;
+    font-weight: 900;
+
+
+}
+
+.hero span p {
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.hero span {
+    text-align: center;
+
+}
+
+.sep {
+    height: 5px;
+    background-color: rgb(66, 66, 66);
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    background: #C80A0A;
+    padding: 5px 17px 5px 17px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1 {
+    background: #C80A0A;
+    font-weight: bold;
+    color: white;
+    padding: 8px 40px 8px 40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.hero span input {
+    padding: 15px 20px;
+    font-size: 15px;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 4px;
+    background: rgba(21, 21, 21, 0.8);
+
+    border: 1px solid rgba(214, 209, 209, 0.5);
+    color: white;
+}
+
+.main .hero .get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.main .flex #lang {
+    background-color: rgba(67, 66, 66, 0.5);
+    color: white;
+    padding: 5px 17px 5px 17px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid rgba(219, 214, 214, 0.5);
+    cursor: pointer;
+
+}
+
+.section1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    justify-content: space-around;
+    /* justify-content: center;
+    align-items: center; 
+    margin: auto;
+    max-width: 70vw; */
+
+
+}
+
+.img1 {
+    position: relative;
+}
+
+.section1 .img1 .image {
+
+    /* max-width: 30vw;  */
+    position: relative;
+    z-index: 10;
+}
+
+.section1 .content {
+    padding-top: 150px;
+
+    /* font-size: 25px; */
+}
+
+.img1 .image2 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    right: 90px;
+    top: 99px;
+}
+
+.section1>.content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section1>.content :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.section1>.content :nth-child(2) {
+    font-size: 24px;
+}
+
+.section2 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    justify-content: space-around;
+    gap: ;
+}
+
+.section2 .content2 {
+
+    padding-top: 150px;
+
+}
+
+.section2>.content2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section2>.content2 :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.section2>.content2 :nth-child(2) {
+    font-size: 24px;
+    /* font-weight: bolder; */
+}
+
+.img1 .image3 {
+    position: absolute;
+    top: 57px;
+    right: 130px;
+    z-index: -1;
+}
+
+.FAQ h2 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding: 45px 0;
+
+}
+
+.faqbox {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #2d2d2d;
+    padding: 24px;
+    width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+/* .faqbox i{
+    position: relative;
+    left:750px;
+} */
+
+.FAQ h3 {
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.FAQ .get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.FAQ .get-started input {
+    padding: 15px 20px;
+    width: 400px;
+    max-width: 100%;
+    font-size: 15px;
+
+    background: rgba(21, 21, 21, 0.8);
+    border-radius: 4px;
+    border: 1px solid rgba(214, 209, 209, 0.5);
+    color: white;
+}
+
+.FAQ .faqbox:hover {
+    box-shadow: 7px 7px 6px rgb(234, 230, 230);
+    background-color: #414141;
+}
+
+.FAQ .faqbox:active {
+    background-color: rgb(52, 226, 43);
+
+}
+
+.FAQ .faqbox {
+    transition: all 1s ease-out 0s;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    /* max-width: 60vw;
+    margin: auto;
+    padding-top: 120px; */
+
+}
+
+.footer .footer-items {
+    /* position: relative;
+    top: 100px; */
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    gap: 15px;
+
+}
+
+.footer-items a {
+
+    font-size: 14px;
+    color: white;
+
+}
+
+footer .Questions {
+    padding: 34px 0px;
+}
+
+.content,
+.content2 {
+    position: relative;
+    top: 0;
+    padding: 20px 0;
+}
+
+.sep1 {
+    height: 5px;
+    background-color: rgb(66, 66, 66);
+    margin-top: 40px;
+
+}
+
+
+
+@media (max-width: 1200px) {
+    section {
+        flex-wrap: wrap;
+    }
+    .hero span{
+        position: relative;
+        bottom: 100px;
+    }
+
+    img {
+        max-width: auto;
+    }
+
+    nav {
+        max-width: 90vw;
+
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .img1 .image2,
+    .img1 .image3 {
+        width: 75%;
+        /* right: 12%; */
+        /* Switched to percentages instead of fixed pixels */
+        /* top: 21%; */
+    }
+    .section1 .img{
+        width: 100%;
+    }
+    .hero>:nth-child(1){
+        font-size: 25px;
+    }
+    .hero>:nth-child(2){
+        font-size: 15px;
+    }
+    .hero>:nth-child(3){
+        font-size: 15px;
+    }
+    .hero .get-started{
+        flex-direction: column;
+    }
+
+
+   
+}
